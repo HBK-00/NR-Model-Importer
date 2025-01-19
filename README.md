@@ -3,6 +3,7 @@ Tools for importing custom models into Night-Runners.
 
 NRMI is a version of [3DMigoto](https://github.com/bo3b/3Dmigoto) that I have modified to be compatible with Night-Runners.
 
+&nbsp;
 ## Installation Instructions
 
 1. Download the 3dmigoto .zip from [releases](https://github.com/HBK-00/NR-Model-Importer/releases/latest) and extract it. I have provided two versions:
@@ -18,5 +19,13 @@ NRMI is a version of [3DMigoto](https://github.com/bo3b/3Dmigoto) that I have mo
 
 ![sss3](https://github.com/user-attachments/assets/361402f3-624e-4e85-b948-a75c30c06078)
 
+&nbsp;
+## Further Tweaking
+The config file has Automatic Launch enabled by default. To modify this setting, open d3dx.ini in a text editor and go to line 65. You can either change the executable path or comment out the line to disable Automatic Launch.
+
+![sss4](https://github.com/user-attachments/assets/cb015843-5448-4bfb-98c8-5d51a853722a)
+
+&nbsp;
 ## Acknowledgements
 Huge thank you to DarkStarSword, bo3b and Chiri for the base 3dmigoto, and SilentNightSound for the original GIMI!
+
